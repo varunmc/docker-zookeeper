@@ -7,4 +7,9 @@ phases:
 
   build:
     commands:
-      - docker build --force-rm -t mc.varun/zookeeper:latest .
+      - docker build --force-rm -t mc.varun/zookeeper .
+
+  post_build:
+    commands:
+      - docker tag mc.varun/zookeeper:latest 497513737772.dkr.ecr.us-east-1.amazonaws.com/mc.varun/zookeeper:latest
+      - docker push 497513737772.dkr.ecr.us-east-1.amazonaws.com/mc.varun/zookeeper:latest
