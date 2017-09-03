@@ -1,0 +1,10 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - $(aws ecr get-login --region us-east-1)
+
+  build:
+    commands:
+      - docker build --force-rm -t mc.varun/zookeeper:latest .
