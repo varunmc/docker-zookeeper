@@ -1,2 +1,2 @@
 # docker-zookeeper
-_Docker image for Zookeeper & Exhibitor_
+_Docker image for Zookeeper_
