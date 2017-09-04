@@ -17,4 +17,4 @@ COPY exhibitor.properties exhibitor/config/exhibitor.properties
 
 EXPOSE 2181 2888 3888 8080
 
-ENTRYPOINT java -jar exhibitor/target/exhibitor-1.5.6.jar $EXHIBITOR_ARGS
+ENTRYPOINT java -jar exhibitor/target/exhibitor-1.6.0.jar $EXHIBITOR_ARGS
