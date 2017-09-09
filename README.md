@@ -8,3 +8,4 @@ The [AWS CodeFormation](https://console.aws.amazon.com/cloudformation/home?regio
 
 ## Links
 * [Exhibitor](https://github.com/soabase/exhibitor)
+* [Zookeeper](https://zookeeper.apache.org)
